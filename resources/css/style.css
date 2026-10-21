@@ -1,0 +1,136 @@
+/* Excursion - style.css */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin: 30px 15px;
+}
+
+/* Download Link */
+a {
+    color: #7fffd4;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Download Button / Link */
+.btn {
+    display: inline-block;
+    margin: 10px 0 25px;
+    color: #7fffd4;
+    font-size: 16px;
+}
+
+/* Supporting Section */
+.text-section {
+    padding: 20px 15px 30px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+.text-section p {
+    color: #808080;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 20px auto;
+    line-height: 1.5;
+}
+
+/* Video */
+video {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Feature Image */
+.feature-section {
+    width: 100%;
+    min-height: 400px;
+    background-image: url("https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 20px auto;
+}
+
+/* Phone Image */
+.app {
+    display: block;
+    width: 64px;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* General Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: right;
+    color: #808080;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .text-section p {
+        font-size: 18px;
+    }
+
+    .feature-section {
+        min-height: 260px;
+        background-size: contain;
+    }
+
+    .footer {
+        padding: 15px;
+        font-size: 12px;
+    }
+}
